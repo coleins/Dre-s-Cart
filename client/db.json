@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "name": "Classic Leather Wallet",
+      "category": "Accessories",
+      "description": "Premium leather wallet with multiple compartments for cash and cards.",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1531190260877-c8d11eb5afaf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Bluetooth Noise-Canceling Headphones",
+      "category": "Electronics",
+      "description": "Wireless headphones with active noise cancellation and long battery life.",
+      "price": 99.99,
+      "image": "https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?q=80&w=1113&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Smartwatch Series 6",
+      "category": "Wearables",
+      "description": "Fitness tracking, heart rate monitoring, and app notifications in one device.",
+      "price": 249.99,
+      "image": "https://images.unsplash.com/photo-1517420879524-86d64ac2f339?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "4K Ultra HD Smart TV",
+      "category": "Electronics",
+      "description": "55-inch Smart TV with 4K resolution, voice control, and streaming capabilities.",
+      "price": 599.99,
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHNtYXJ0JTIwdHZ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "name": "Wireless Gaming Mouse",
+      "category": "Gaming",
+      "description": "High-precision wireless mouse with customizable buttons and RGB lighting.",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdpcmVsZXNzJTIwZ21pbmclMjBtb3VzZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "description": "Lightweight, breathable running shoes with shock-absorbing soles.",
+      "price": 69.99,
+      "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww"
+    },
+    {
+      "name": "Stainless Steel Water Bottle",
+      "category": "Home & Kitchen",
+      "description": "Insulated water bottle keeps drinks cold for 24 hours or hot for 12 hours.",
+      "price": 19.99,
+      "image": "https://plus.unsplash.com/premium_photo-1681408059522-b83aa9c0a0be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJvdHRsZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "Ergonomic Office Chair",
+      "category": "Furniture",
+      "description": "Adjustable office chair with lumbar support and breathable mesh.",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1688578735427-994ecdea3ea4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZXJnb25vbWljJTIwY2hhaXJ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "name": "Smart LED Light Bulbs",
+      "category": "Home & Kitchen",
+      "description": "Color-changing LED light bulbs with voice control and app integration.",
+      "price": 29.99,
+      "image": "https://plus.unsplash.com/premium_photo-1705582800048-bead406b6eb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c21hcnQlMjBsZWQlMjBsaWdodCUyMGJ1bGJzfGVufDB8fDB8fHww"
+    },
+    {
+      "name": "Fitness Tracker Band",
+      "category": "Wearables",
+      "description": "Track your steps, heart rate, and calories burned with this stylish fitness band.",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1579721840641-7d0e67f1204e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "Portable Bluetooth Speaker",
+      "category": "Electronics",
+      "description": "Waterproof Bluetooth speaker with 12-hour battery life and excellent sound quality.",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1529359744902-86b2ab9edaea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvcnRhYmxlJTIwYmx1dG9vdGglMjBzcGVha2VyfGVufDB8fDB8fHww"
+    },
+    {
+      "name": "Wireless Charging Pad",
+      "category": "Accessories",
+      "description": "Fast wireless charger compatible with iPhone and Android devices.",
+      "price": 24.99,
+      "image": "https://images.unsplash.com/photo-1543472750-506bacbf5808?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2lyZWxlc3MlMjBjaGFyZ2luZyUyMHBhZHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "Stainless Steel Cookware Set",
+      "category": "Home & Kitchen",
+      "description": "10-piece stainless steel cookware set with non-stick coating and glass lids.",
+      "price": 149.99,
+      "image": "https://media.istockphoto.com/id/922676896/photo/cooking-pot.webp?a=1&b=1&s=612x612&w=0&k=20&c=jBUMEqfMIWafbRAYLuXxeW1U4bdK41ntluq2WM8u0Bg="
+    },
+    {
+      "name": "Electric Standing Desk",
+      "category": "Furniture",
+      "description": "Adjustable height standing desk with quiet motor and large workspace.",
+      "price": 349.99,
+      "image": "https://media.istockphoto.com/id/1413205694/photo/woman-using-adjustable-height-standing-desk-in-office.jpg?s=612x612&w=is&k=20&c=NJtQ9n9Sj5Wwa1R34g2osKmkvbwaT4_tyoBbSfsYpZM="
+    },
+    {
+      "name": "Luxury Silk Bed Sheets",
+      "category": "Home & Kitchen",
+      "description": "Ultra-soft and breathable silk bed sheets for a comfortable night's sleep.",
+      "price": 99.99,
+      "image": "https://plus.unsplash.com/premium_photo-1672680514924-1f9dbbd5b58f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNpbGslMjBiZWRzaGVldHN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "name": "Noise-Canceling Earbuds",
+      "category": "Electronics",
+      "description": "Compact wireless earbuds with active noise cancellation and fast charging.",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZXJyJTIwYnVkc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "description": "Non-slip yoga mat with extra cushioning for comfort during workouts.",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1599447332712-112c3d0cefb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8eW9nYSUyMG1hdHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "Digital SLR Camera",
+      "category": "Electronics",
+      "description": "High-resolution digital camera with 24.1 megapixels and interchangeable lenses.",
+      "price": 499.99,
+      "image": "https://images.unsplash.com/photo-1682078234868-412ec5566118?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGlnaXRhbCUyMHNsciUyMGNhbWVyYXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "Electric Kettle",
+      "category": "Home & Kitchen",
+      "description": "Fast-boiling electric kettle with auto shut-off and stainless steel body.",
+      "price": 34.99,
+      "image": "https://images.unsplash.com/photo-1643114786355-ff9e52736eab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWxlY3RyaWMlMjBrZXR0bGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "name": "Gaming Laptop",
+      "category": "Electronics",
+      "description": "High-performance gaming laptop with Intel i7 processor and GTX 1650 graphics.",
+      "price": 1199.99,
+      "image": "https://images.unsplash.com/photo-1684127987312-43455fd95925?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwbGFwdG9wfGVufDB8fDB8fHww"
+    }
+  ]
+}

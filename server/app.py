@@ -7,7 +7,7 @@ CORS(app)
 
 @app.route('/')
 def index():
-    return '<h1>Welcome to my page!</h1>'
+    return '<h1>Flask is running!</h1>'
 
 if __name__ == '__main__':
-    app.run(port=5555)
+    app.run(port=5555, debug=True)
