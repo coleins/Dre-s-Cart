@@ -67,15 +67,6 @@ BLACKLIST = set()
 def check_if_token_in_blocklist(jwt_header, decrypted_token):
     return decrypted_token['jti'] in BLACKLIST
 
-
-# @app.before_request
-# def log_request_info():
-#     if request.endpoint == "login":
-#         logging.info(f"Request: {request.method} {request.url} [Login Request: Sensitive Info Hidden]")
-#     else:
-#         logging.info(f"Request: {request.method} {request.url} {request.get_json()}")
-
-
 # User management
 @app.route("/login", methods=["POST"])
 def login():
@@ -111,6 +102,62 @@ def get_current_user():
             "updated_at": current_user.updated_at
         })
     return jsonify({"message": "User not found"}), 404
+
+@app.route("/users", methods=["POST"])
+def create_user():
+    data = request.get_json()
+    username = data.get("username")
+    email = data.get("email")
+    password = data.get("password")
+
+    hashed_password = bcrypt.generate_password_hash(password).decode("utf-8")
+
+    new_user = User(username=username, email=email, password=hashed_password)
+    db.session.add(new_user)
+    db.session.commit()
+
+    return jsonify({"message": "User created successfully", "user": new_user.id}), 201
+
+@app.route("/users/<int:user_id>", methods=["GET"])
+@jwt_required()
+def get_user(user_id):
+    user = User.query.get(user_id)
+    if user:
+        return jsonify({
+            "id": user.id,
+            "username": user.username,
+            "email": user.email,
+            "created_at": user.created_at,
+            "updated_at": user.updated_at
+        })
+    return jsonify({"message": "User not found"}), 404
+
+@app.route('/users/<int:user_id>', methods=['PUT'])
+@jwt_required()
+def update_user(user_id):
+    user = User.query.get_or_404(user_id)
+    data = request.get_json()
+
+    if 'username' in data:
+        user.username = data['username']
+    if 'email' in data:
+        user.email = data['email']
+    if 'password' in data:
+        user.password = bcrypt.generate_password_hash(data['password']).decode("utf-8")
+        
+    db.session.commit()
+    return jsonify({'message': 'User updated successfully'})
+@app.route("/users/<int:user_id>", methods=["DELETE"])
+@jwt_required()
+def delete_user(user_id):
+    user = User.query.get(user_id)
+    if not user:
+        return jsonify({"message": "User not found"}), 404
+
+    db.session.delete(user)
+    db.session.commit()
+
+    return jsonify({"message": "User deleted successfully"}), 200
 
 # Product management
 @app.route("/products", methods=["GET"])
